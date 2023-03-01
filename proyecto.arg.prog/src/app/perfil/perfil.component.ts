@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-perfil',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./perfil.component.css']
 })
 export class PerfilComponent {
+
+  perfil(form:NgForm){
+    const email=form.value.email
+    const password=form.value.password
+  }
 
 }
