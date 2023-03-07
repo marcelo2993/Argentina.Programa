@@ -1,7 +1,18 @@
-img{
+#redes{
+    height: 50px;
+    width: 50px;
+    padding: 3px;
+    background-color: white;
+    border-radius: 35px;
+    margin-top: 48px;
+    
+    
+}
+#logo{
     background-color: black;
     height: 150px;
-    width: 200px;
+    width: 250px;
+    
 }
 div{
     background-color: black;

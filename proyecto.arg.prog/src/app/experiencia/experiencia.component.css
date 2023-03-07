@@ -1,9 +1,8 @@
-li{
-    color: white;
-}
-ul{
-    color: white;
-}
-body{
+div{
     background-color: black;
+}
+
+p{
+color: white;
+text-align: center;
 }
